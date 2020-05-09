@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prepare": "snowpack install --dest src --installTypes"
+    "prepare": "snowpack install --dest src/web_modules --installTypes"
   },
   "webDependencies": {
     "lit-html": "^1.2.1"
