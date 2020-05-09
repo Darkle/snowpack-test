@@ -1,0 +1,27 @@
+{
+  "name": "snowpack-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "snowpack install --dest src/web_modules --installTypes"
+  },
+  "webDependencies": {
+    "lit-html": "^1.2.1"
+  },
+  "devDependencies": {
+    "snowpack": "^2.0.0-beta.12",
+    "typescript": "^3.8.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Darkle/snowpack-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Darkle/snowpack-test/issues"
+  },
+  "homepage": "https://github.com/Darkle/snowpack-test#readme"
+}
